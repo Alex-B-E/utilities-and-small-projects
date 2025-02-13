@@ -8,7 +8,7 @@ This repository contains a collection of utilities and small projects developed 
 - Contributing
 - License
 
-## Project 1
+## sftpClient
 
 ### Description
 This project is an SFTP client that allows you to upload and download files using the SFTP protocol.
