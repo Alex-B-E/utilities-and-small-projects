@@ -56,9 +56,9 @@ public class SftpClient {
         String user = config.getProperty("user");
         String password = config.getProperty("password");
         String remoteDir = config.getProperty("remoteDir");
-        String localFilePath = config.getProperty("localFilePath") + "/file.txt";
-        String remoteFilePath = remoteDir + "/file.txt";
-        String downloadPath = config.getProperty("downloadPath") + "/file.txt";
+        String localFilePath = config.getProperty("localFilePath");
+        String remoteFilePath = remoteDir";
+        String downloadPath = config.getProperty("downloadPath");
 
         JSch jsch = new JSch();
         Session session = null;
